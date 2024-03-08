@@ -8,53 +8,11 @@ import CountdownTimer from "../hooks/CountdownTimer";
 const Body = () => {
     const THREE_DAYS_IN_MS = 165 * 24 * 60 * 60 * 1000;
     const NOW_IN_MS = new Date().getTime();
-    // console.log("three" + THREE_DAYS_IN_MS);
-    // console.log("Now" + NOW_IN_MS);
     const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
-    // const ExpiredNotice = () => {
-    //     return (
-    //         <div className="expired-notice">
-    //             <span>Expired!!!</span>
-    //             <p>Please select a future date and time.</p>
-    //         </div>
-    //     );
-    // };
-
-    // const ShowCounter = ({ days, hours, minutes, seconds }) => {
-    //     return (
-    //         <div className="show-counter">
-    //             <DateTimeDisplay value={days} type={"Days"} isDanger={days <= 3} />
-    //             <p>:</p>
-    //             <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
-    //             <p>:</p>
-    //             <DateTimeDisplay value={minutes} type={"Mins"} isDanger={false} />
-    //             <p>:</p>
-    //             <DateTimeDisplay value={seconds} type={"Seconds"} isDanger={false} />
-    //         </div>
-    //     );
-    // };
-
-    // const CountdownTimer = ({ targetDate }) => {
-    //     const [days, hours, minutes, seconds] = useCountdown(targetDate);
-    //     // console.log(days);
-
-    //     if (days + hours + minutes + seconds <= 0) {
-    //         return <ExpiredNotice />;
-    //     } else {
-    //         return (
-    //             <ShowCounter
-    //                 days={days}
-    //                 hours={hours}
-    //                 minutes={minutes}
-    //                 seconds={seconds}
-    //             />
-    //         );
-    //     }
-    // };
     return (
         <>
             <div className='container-fluid'>
-                <div className='row' style={{ marginTop: '94px' }}>
+                <div className='row' style={{ marginTop: '80px' }}>
                     <div className='col-12 p-0'>
                         <div style={{ backgroundSize: 'cover', backgroundImage: 'url(images/bd-1.jpeg)', height: '800px' }}>
                             <div className="mask text-light d-flex justify-content-center flex-column text-center " style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', height: '800px' }}>
@@ -412,13 +370,10 @@ const Body = () => {
                     <div className='col-12'>
                         <div className='bg-image' style={{ backgroundImage: 'url(images/bd-bd.jpg)', height: '450px', backgroundSize: 'cover' }}>
                             <div className=" text-light d-flex justify-content-center flex-column text-center p-5" style={{ height: '450px', backgroundColor: 'rgba(240, 173, 78, 0.7)' }}>
-                                <div className='d-flex flex-column align-items-center '>
+                                <div className='d-flex flex-column align-items-center'>
                                     <p className=" text-dark h2">The Biggest Battle Of The Brains Is Here</p>
-                                    <p className="text-center text-dark fs-1 fw-bold  mt-4">LET'S MEET FOR THE <br />DELHI MEMORY <br /> CHAMPIONSHIP 2024</p>
-                                    <p className=" h1  text-dark">Registrations Have Started</p>
-                                    {/* <Link className='text-dark btn-rounded text-decoration-none h4 btn btn-warning w-25 '>
-                                            Register Now
-                                        </Link> */}
+                                    <p className="text-center text-dark fs-1 fw-bold  mt-sm-2">LET'S MEET FOR THE <br />DELHI MEMORY <br /> CHAMPIONSHIP 2024</p>
+                                    <p className=" h1 text-dark">Registrations Have Started</p>
                                     <div className='row justify-content-center'>
                                         <Link className='btn btn-rounded h-100 w-100 btn-warning display-4 fw-bold'>Register Now</Link>
                                     </div>
