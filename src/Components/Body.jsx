@@ -399,7 +399,7 @@ const Body = () => {
                     <div className='col-lg-4 col-md-6 col-sm-12 my-md-0 my-3 my-lg-0'>
                         <img className='img-fluid' src="images/g8.jpg" alt="g8" />
                     </div>
-                    <div className='col-lg-4 col-md-12 mt-md-0 my-md-3 col-sm-12'>
+                    <div className='col-lg-4 col-md-12 mt-md-3 my-md-3 col-sm-12'>
                         <img className='img-fluid' src="images/g9.jpg" alt="g9" />
                     </div>
                 </div>
