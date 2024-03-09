@@ -42,10 +42,10 @@ const Body = () => {
                                     <p className='' style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} >DMC Is The Delhi Cup Of Memory Sports In Which Memory Athletes From Several Schools, Cities And States Attempt To Memorize & Recall Different Forms Of Information, Under Certain Guidelines. The First WMC Took Place In London In The Year 1991.</p>
                                     <p style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }}>The DMC Has Memory Athletes Participating Across 4 Categories:-</p>
                                     <ol style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group list-group-numbered">
-                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Kids (Age 0-12)</li>
-                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Juniors (Age 13-18)</li>
-                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Adults (Age 19-60)</li>
-                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Seniors (Age 60+)</li>
+                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Kids (Age 0-12)</li>
+                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Juniors (Age 13-18)</li>
+                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Adults (Age 19-60)</li>
+                                        <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Seniors (Age 60+)</li>
                                     </ol>
                                 </div>
                                 <div className=' w-100 h-100' style={{ marginTop: '130px' }}>
@@ -59,10 +59,10 @@ const Body = () => {
                                 <p className='text-center' style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} >DMC Is The Delhi Cup Of Memory Sports In Which Memory Athletes From Several Schools, Cities And States Attempt To Memorize & Recall Different Forms Of Information, Under Certain Guidelines. The First WMC Took Place In London In The Year 1991.</p>
                                 <p className='text-center' style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }}>The DMC Has Memory Athletes Participating Across 4 Categories:-</p>
                                 <ol style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className=" text-center list-group list-group-numbered">
-                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Kids (Age 0-12)</li>
-                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Juniors (Age 13-18)</li>
-                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Adults (Age 19-60)</li>
-                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} class="list-group-item border border-0">Seniors (Age 60+)</li>
+                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Kids (Age 0-12)</li>
+                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Juniors (Age 13-18)</li>
+                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Adults (Age 19-60)</li>
+                                    <li style={{ color: 'rgb(74, 78, 105)', fontWeight: '500' }} className="list-group-item border border-0">Seniors (Age 60+)</li>
                                 </ol>
                                 <div className=' w-100 h-100 my-5 '>
                                     <img className='img-fluid  rounded ' src="images/bd-2.jpeg" alt="" />
