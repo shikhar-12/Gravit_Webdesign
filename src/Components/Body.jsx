@@ -13,7 +13,7 @@ const Body = () => {
         <>
             <div className='container-fluid'>
                 <div className='row' style={{ marginTop: '80px' }}>
-                    <div className='col-12 p-0'>
+                    <div className='col-12 p-0 '>
                         <div style={{ backgroundSize: 'cover', backgroundImage: 'url(images/bd-1.jpeg)', height: '800px' }}>
                             <div className="mask text-light d-flex justify-content-center flex-column text-center " style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', height: '800px' }}>
                                 <div className='d-flex flex-column position-relative top-25 mt-5 pt-5'>
@@ -264,7 +264,7 @@ const Body = () => {
                         </div>
                         <div className='col-sm-12 d-sm-block d-lg-none'>
                             <div className='d-flex justify-content-center'>
-                                <div className='bg-warning rounded w-25 h-25'>
+                                <div className='bg-warning rounded w-50 h-50'>
                                     <img className='img-fluid p-3' src="images/bd-4.png" alt="bd4" />
                                     <p className='fs-5 fw-bold text-white text-center'>Monika Thomas</p>
                                 </div>
@@ -272,7 +272,7 @@ const Body = () => {
                         </div>
                         <div className='col-sm-12 my-4 d-block d-lg-none'>
                             <div className='d-flex justify-content-center'>
-                                <div className='bg-warning rounded w-25 h-25'>
+                                <div className='bg-warning rounded w-50 h-50'>
                                     <img className='img-fluid p-3' src="images/bd-4.png" alt="bd4" />
                                     <p className=' fs-5 fw-bold text-white text-center'>Monika Thomas</p>
                                 </div>
